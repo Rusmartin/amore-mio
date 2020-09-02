@@ -30,7 +30,9 @@
 1. PRIMARY STYLES
 --------------------------------- */
 
-html { font-size: 100%; overflow-x: hidden; width: 100%; margin: 0px; padding: 0px; touch-action: manipulation;}
+html { font-size: 100%; overflow-x: hidden; width: 100%; margin: 0px; padding: 0px; touch-action: manipulation;
+    scroll-behavior: smooth;
+}
 
 body { font-size: 14px; font-family: 'Open Sans', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 400; -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale; word-wrap: break-word; overflow-x: hidden; color: #333; }
@@ -1024,6 +1026,23 @@ section {
 .btn-b-md { font-size: .9em; height: 35px; line-height: 35px; }
 
 .btn-b-sm { font-size: .9em; height: 30px; line-height: 28px; }
+
+.envoyez {
+    margin-top: 20px;
+    border: solid red;
+    cursor: pointer;
+    transition: .8s;
+    color: #aaa;
+}
+
+/***************
+my touch for submit button at bottom of contact page
+***************/
+
+.envoyez:hover {
+    border-bottom: solid #EF0031 3px;
+    color: #333;
+}
 
 
 /* FORM INPUT STYLING */

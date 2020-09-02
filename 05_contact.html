@@ -69,13 +69,13 @@
 
                 <form class="form-style-1 placeholder-1" netlify>
                         <div class="row">
-                                <div class="col-md-6"> <input class="mb-20" type="text" placeholder="Nom complet">  </div>
-                                <div class="col-md-6"> <input class="mb-20" type="text" placeholder="E-mail">  </div>
-                                <div class="col-md-12"><input class="mb-20" type="text" placeholder="Sujet">  </div>
+                                <div class="col-md-6"> <input class="mb-20" type="text" placeholder="Nom complet" required>  </div>
+                                <div class="col-md-6" required> <input class="mb-20" type="email" placeholder="E-mail">  </div>
+                                <div class="col-md-12"><input class="mb-20" type="text" placeholder="Sujet" required>  </div>
                                 <div class="col-md-12">
-                                        <textarea class="h-200x ptb-20" placeholder="Message"></textarea></div>
+                                <textarea class="h-200x ptb-20" placeholder="Message" required></textarea></div>
                         </div><!-- row -->
-                        <h6 class="center-text mtb-30"><a href="#" class="btn-primaryc plr-25"><b>ENVOYEZ</b></a></h6>
+                        <div class=""><input type="submit" class="envoyez" value="ENVOYER LE MESSAGE"></div><!-- center-text mtb-30, plr-25 -->
                 </form>
         </div><!-- container -->
 </section>
