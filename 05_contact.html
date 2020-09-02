@@ -67,13 +67,43 @@
                                 Nullam sed lacus sed metus tincidunt lobortis lobortis at nibh. Morbi euismod, arcu in gravida rhoncus</p>
                 </div>
 
-                <form class="form-style-1 placeholder-1" netlify>
+                <form class="form-style-1 placeholder-1" netlify target="_blank">
                         <div class="row">
-                                <div class="col-md-6"> <input class="mb-20" type="text" placeholder="Nom complet" required>  </div>
-                                <div class="col-md-6" required> <input class="mb-20" type="email" placeholder="E-mail">  </div>
-                                <div class="col-md-12"><input class="mb-20" type="text" placeholder="Sujet" required>  </div>
+                                <div class="col-md-6"> 
+                                    <input 
+                                           class="mb-20" 
+                                           for="nom" 
+                                           type="text"
+                                           name="nom"
+                                           placeholder="Nom complet" 
+                                           required>  
+                                </div>
+                                <div class="col-md-6"> 
+                                    <input 
+                                           class="mb-20" 
+                                           for="email" 
+                                           type="email"
+                                           name="email"
+                                           placeholder="E-mail"
+                                           required>  
+                                </div>
                                 <div class="col-md-12">
-                                <textarea class="h-200x ptb-20" placeholder="Message" required></textarea></div>
+                                    <input 
+                                           class="mb-20" 
+                                           for="sujet" 
+                                           type="text"name="sujet"
+                                           placeholder="Sujet" 
+                                           required>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea 
+                                            class="h-200x ptb-20" 
+                                            for="message"
+                                            name="message"
+                                            placeholder="Message" 
+                                            required>
+                                    </textarea>
+                                </div>
                         </div><!-- row -->
                         <div class=""><input type="submit" class="envoyez" value="ENVOYER LE MESSAGE"></div><!-- center-text mtb-30, plr-25 -->
                 </form>
